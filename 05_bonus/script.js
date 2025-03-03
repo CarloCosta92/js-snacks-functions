@@ -11,6 +11,7 @@ const nome = 'Carlo';
 // Dichiara la funzione qui.
 function salutare(nome) {
     const hours = new Date().getHours();
+    console.log(hours);
     let saluto;
     if (hours <= 13){
         saluto="Buongiorno"
