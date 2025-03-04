@@ -5,13 +5,13 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function saluto(userName){
-    return `Ciao ${userName}`;
+function saluto(name){
+    return `Ciao ${name}`;
 }
 
 //arrow function
 
-// const saluto = (userName) => `Ciao ${userName}`;
+// const saluto = (name) => `Ciao ${name}`;
 
 
 

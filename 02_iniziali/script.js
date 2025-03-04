@@ -5,24 +5,24 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function firstLetter(names) {
+function firstLetter(elements) {
 
     let letter=[];
 
-    for(let i=0; i<names.length; i++){
-        letter.push(names[i][0]);
+    for(let i=0; i<elements.length; i++){
+        letter.push(elements[i][0]);
     }
     return letter;
 }
 
 //arrow function
 
-// const firstLetter = names =>{
+// const firstLetter = elements =>{
 
 //     let letter=[];
 
-//     for(let i=0; i<names.length; i++){
-//         letter.push(names[i][0]);
+//     for(let i=0; i<elements.length; i++){
+//         letter.push(elements[i][0]);
 //     }
 //     return letter;
 // }

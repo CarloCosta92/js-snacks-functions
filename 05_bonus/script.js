@@ -9,7 +9,7 @@ const nome = 'Carlo';
 
 
 // Dichiara la funzione qui.
-function salutare(nome) {
+function salutare(person) {
     const hours = new Date().getHours();
     console.log(hours);
     let saluto;
@@ -21,7 +21,7 @@ function salutare(nome) {
         saluto="Buonasera"
     }
 
-    return `${saluto} ${nome}`;
+    return `${saluto} ${person}`;
 }
 
 //arrow functions

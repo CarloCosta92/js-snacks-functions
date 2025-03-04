@@ -17,6 +17,8 @@ function findVocals(word){
     return vocals;
 }
 
+//MEGLIO LA SOLUZIONE CON INDEX OF,ANDARE A VEDERE!!
+
 //arrow functions
 
 // const findVocals= (word) => {
